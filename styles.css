@@ -1,0 +1,46 @@
+body {
+    background-color: brown;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+.root {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container {
+    height: 800px;
+    width: 1100px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    height: 150px;
+}
+.restart {
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    font-size: 1rem;
+}
+
+.status {
+    height: 100px;
+    width: 800px;
+}
+
+.row {
+    font-size: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
